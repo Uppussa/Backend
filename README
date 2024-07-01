@@ -34,7 +34,7 @@ Puedes acceder a la documentación Swagger de la API en [http://localhost:3000/a
 
 ### Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/backend.git`
+1. Clona el repositorio: `git clone https://github.com/Uppussa/backend.git`
 2. Instala las dependencias: `npm install`
 
 ### Configuración de Variables de Entorno
