@@ -1,0 +1,43 @@
+# API Backend
+
+Este repositorio contiene el backend de una aplicación con las siguientes características:
+
+- **Registro de usuarios**
+- **Inicio de sesión**
+- **Dashboard de usuario**
+- **Actualización de perfil**
+
+## Estructura de la Base de Datos
+
+La base de datos utilizada contiene la siguiente estructura para los usuarios:
+
+| ID | Email                | Nombre    | Teléfono   | Contraseña Hash    | Imagen de Perfil      | Bio                   | Fecha de Creación    |
+|----|----------------------|-----------|------------|--------------------|-----------------------|-----------------------|----------------------|
+| 2  | gustavo@gmail.com    | Gustavo   | 80987945698| Sholamundo1         | NULL                  | NULL                  | 2024-07-01 11:33:54  |
+| 3  | schmuckedj@gmail.com | Goku      | 15926941   |    Sholamundo2     | /uploads/free.jpeg    | Yo soy tu padre       | 2024-06-27 11:49:33  |
+| 5  | gustavo1@gmail.com   | Depper    | 8498742698 |     Sholamundo5   | /uploads/LogoGit.jpg  | Soy de Gravity Fall   | 2024-06-28 12:18:24  |
+
+## las contraseña estan encriptadas solo las coloque asi para poder acceder desde el login del frontend al final para probar agrege a luna@gmail.com password Sholamundo4
+
+## Endpoints API
+
+- **POST /register**: Registro de nuevos usuarios.
+- **POST /login**: Inicio de sesión de usuarios existentes.
+- **GET /dashboard**: Obtención de datos del usuario autenticado.
+- **POST /updateProfile**: Actualización del perfil de usuario, incluyendo la imagen de perfil.
+
+## Swagger Documentation
+
+Puedes acceder a la documentación Swagger de la API en [http://localhost:3000/api-docs](http://localhost:3000/api-docs).
+
+## Configuración del Proyecto
+
+### Instalación
+
+1. Clona el repositorio: `git clone https://github.com/tu-usuario/backend.git`
+2. Instala las dependencias: `npm install`
+
+### Configuración de Variables de Entorno
+
+Asegúrate de configurar las siguientes variables de entorno en un archivo `.env` en la raíz del proyecto:
+
